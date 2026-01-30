@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "playerImage": "https://i.ibb.co/YTRjjg8X/SAH.png",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "playingRole": "All-Rounder",
+    "rating": 9.6,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Left-arm Orthodox Spin",
+    "price": 25000000
+  },
+  {
+    "id": 2,
+    "playerImage": "https://i.ibb.co/0p2N5Lfn/TI.png",
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 9.1,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Right-arm Offbreak",
+    "price": 18000000
+  },
+  {
+    "id": 3,
+    "playerImage": "https://i.ibb.co/Kj5BLh0f/CG.png",
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "playingRole": "Batsman",
+    "rating": 9.3,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Right-arm Off Spin",
+    "price": 21000000
+  },
+  {
+    "id": 4,
+    "playerImage": "https://i.ibb.co/fYvHp1Fk/DM.png",
+    "name": "David Miller",
+    "country": "South Africa",
+    "playingRole": "Batsman",
+    "rating": 9.1,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Right-arm Offbreak",
+    "price": 18500000
+  },
+  {
+    "id": 5,
+    "playerImage": "https://i.ibb.co/m1c8WqG/FAF.png",
+    "name": "Faf du Plessis",
+    "country": "South Africa",
+    "playingRole": "Batsman",
+    "rating": 9.2,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Legbreak",
+    "price": 20000000
+  },
+  {
+    "id": 6,
+    "playerImage": "https://i.ibb.co/8L9GH2nJ/GM.png",
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "playingRole": "All-Rounder",
+    "rating": 9.3,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Off Spin",
+    "price": 23000000
+  },
+  {
+    "id": 7,
+    "playerImage": "https://i.ibb.co/rGq0xFG6/LKD.png",
+    "name": "Liton Das",
+    "country": "Bangladesh",
+    "playingRole": "Wicket-Keeper Batsman",
+    "rating": 8.7,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "None",
+    "price": 13000000
+  },
+  {
+    "id": 8,
+    "playerImage": "https://i.ibb.co/6JJbN4Z4/MHM.png",
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "playingRole": "All-Rounder",
+    "rating": 8.8,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Off Spin",
+    "price": 14000000
+  },
+  {
+    "id": 9,
+    "playerImage": "https://i.ibb.co/pjcZ0QXm/MR.png",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 8.9,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "price": 15000000
+  },
+  {
+    "id": 10,
+    "playerImage": "https://i.ibb.co/FqYkwXR5/RK.png",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "playingRole": "Bowler",
+    "rating": 9.7,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Leg Spin",
+    "price": 24000000
+  },
+  {
+    "id": 11,
+    "playerImage": "https://i.ibb.co/0RWp973Y/SI.png",
+    "name": "Shoriful Islam",
+    "country": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 8.4,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "price": 10000000
+  },
+  {
+    "id": 12,
+    "playerImage": "https://i.ibb.co/pvGNxsHt/SN.png",
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "playingRole": "All-Rounder",
+    "rating": 9.0,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Right-arm Off Spin",
+    "price": 19000000
+  },
+  {
+    "id": 13,
+    "playerImage": "https://i.ibb.co/v6SjBBSq/TA.png",
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 8.6,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Fast",
+    "price": 12000000
+  },
+  {
+    "id": 14,
+    "playerImage": "https://i.ibb.co/XZQp4ggL/AR.png",
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "playingRole": "All-Rounder",
+    "rating": 9.4,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Fast",
+    "price": 22000000
+  },
+  {
+    "id": 15,
+    "playerImage": "https://i.ibb.co/pB6kg82t/WH.png",
+    "name": "Wanindu Hasaranga",
+    "country": "Sri Lanka",
+    "playingRole": "All-Rounder",
+    "rating": 9.2,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Leg Spin",
+    "price": 20000000
+  }
+]
