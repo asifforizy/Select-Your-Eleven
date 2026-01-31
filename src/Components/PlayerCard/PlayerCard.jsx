@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import profile from '../../assets/Group.png'
 
 
-const PlayerCard = ({ player , setCoin , coin }) => {
+const PlayerCard = ({ player , setCoin , coin ,  setSelectedPlayers , selectedPlayers }) => {
 
     const [isSelected, setIsSelected] = useState(false);
 
     const handleClick = ()=>{
         if(coin >= player.price){
             setIsSelected(true);
+            setSelectedPlayers([...selectedPlayers, player]);
             setCoin(coin - player.price);
         } else {
             alert("You don't have enough coins");
