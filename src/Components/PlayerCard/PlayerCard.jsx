@@ -19,11 +19,11 @@ const PlayerCard = ({ player , setCoin , coin }) => {
     return (
         <div >
             <div className="card bg-base-100 shadow-sm border">
-                <figure className='p-4 '>
+                <figure className='p-4 overflow-hidden rounded-2xl'>
                     <img
                         src={player.playerImage}
                         alt="Shoes"
-                        className='rounded-2xl h-60 w-full object-cover' />
+                        className='h-60 w-full object-cover' />
                 </figure>
                 <div className="card-body">
                     <div className='flex  gap-2'>
