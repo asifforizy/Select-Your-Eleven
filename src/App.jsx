@@ -21,7 +21,7 @@ const [selectedPlayers , setSelectedPlayers ] = useState([]);
     <div className='lg:w-10/12 mx-auto' >
       <Navbar coin={coin}></Navbar>
       <Hero  ></Hero>
-      <div className='flex items-center justify-between'>
+      <div className='flex items-center justify-between mx-3 lg:mx-0'>
         <h1 className='text-4xl font-bold'>Players</h1>
 
         <div>
@@ -33,13 +33,15 @@ const [selectedPlayers , setSelectedPlayers ] = useState([]);
       </div>
 
 
-      <Suspense fallback={<div>Loading players...</div>}>
+      <div className='mx-5 lg:mx-0'>
+        <Suspense fallback={<div>Loading players...</div>}>
 
       {
         toggle ?  <AvailablePlayers  setSelectedPlayers={ setSelectedPlayers}  selectedPlayers={selectedPlayers} coin = {coin} setCoin={setCoin} playerPromise={playerPromise} ></AvailablePlayers> : <SelectedPlayers setSelectedPlayers={ setSelectedPlayers} selectedPlayers={selectedPlayers} coin = {coin} setCoin={setCoin}></SelectedPlayers>
       }
         
       </Suspense>
+      </div>
 
 
 

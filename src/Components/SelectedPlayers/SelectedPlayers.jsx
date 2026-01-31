@@ -4,7 +4,7 @@ import SelectedCard from '../../SelectedCard/SelectedCard';
 
 const SelectedPlayers = ({ selectedPlayers}) => {
     return (
-        <div>
+        <div className='mt-10' >
             {
                 selectedPlayers.map(player => <SelectedCard key={player.id} player={player}></SelectedCard>)
             }
