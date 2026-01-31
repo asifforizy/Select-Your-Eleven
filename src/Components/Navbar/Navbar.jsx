@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -31,7 +31,7 @@ const Navbar = () => {
                             <li><a>Schedules</a></li>
                         </ul>
                     </div>
-                    <a className="btn">0 coin 🪙</a>
+                    <a className="btn"><span>{coin}</span> coin 🪙</a>
                 </div>
             </div>
         </div>

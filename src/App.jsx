@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import AvailablePlayers from './Components/AvailablePlayer/AvailablePlayers';
@@ -6,11 +6,17 @@ import AvailablePlayers from './Components/AvailablePlayer/AvailablePlayers';
 const playerPromise = fetch('players.json').then(res => res.json());
 
 
+
 const App = () => {
+
+const [coin , setCoin] = useState(120000000)
+
+
+
   return (
     <div className='lg:w-10/12 mx-auto' >
-      <Navbar></Navbar>
-      <Hero></Hero>
+      <Navbar coin={coin}></Navbar>
+      <Hero  ></Hero>
       <div className='flex items-center justify-between'>
         <h1 className='text-2xl font-bold'>Players</h1>
         <div>
@@ -21,7 +27,7 @@ const App = () => {
 
 
       <Suspense fallback={<div>Loading players...</div>}>
-        <AvailablePlayers playerPromise={playerPromise} ></AvailablePlayers>
+        <AvailablePlayers coin = {coin} setCoin={setCoin} playerPromise={playerPromise} ></AvailablePlayers>
       </Suspense>
 
 

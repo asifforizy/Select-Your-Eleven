@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import profile from '../../assets/Group.png'
-const PlayerCard = ({ player }) => {
+
+
+const PlayerCard = ({ player , setCoin , coin }) => {
+
+    const [isSelected, setIsSelected] = useState(false);
+
+    const handleClick = ()=>{
+        setIsSelected(true);
+        coin < player.price ? alert("You don't have enough coins") : setCoin(coin - player.price);
+
+    }
+
+
     return (
         <div >
             <div className="card bg-base-100 shadow-sm border">
@@ -34,7 +46,7 @@ const PlayerCard = ({ player }) => {
 
                     <div className='flex items-center justify-between' >
                         <h1>Price : ${player.price}</h1>
-                        <button className=' border rounded-md px-2'>Choose Player</button>
+                        <button disabled={isSelected} onClick={handleClick} className=' border rounded-md px-2'>{isSelected ? "Selected" : "Choose player"}</button>
                     </div>
                     
                 </div>
